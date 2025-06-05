@@ -1,11 +1,11 @@
 export interface Ratings {
   user_id: string;
   text: string;
-  star_rating: number;
+  stars: number;
 }
 
 export interface Product {
-  id: number;
+  id: string;
   name: string;
   brand: string;
   price: number;
@@ -13,5 +13,5 @@ export interface Product {
   description: string;
   rating: number;
   ratings: Ratings[];
-  image: string;
+  image?: string;
 }

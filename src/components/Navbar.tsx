@@ -1,7 +1,13 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import WMicon from "../../public/brand/brand.svg";
+
+import WMIcon from "@/assets/svg/brand.svg";
+import SearchIcon from "@/assets/svg/search.svg";
+import MenuIcon from "@/assets/svg/menu.svg";
+import CloseIcon from "@/assets/svg/close.svg";
 
 interface NavItemProps {
   text: string;
@@ -13,120 +19,93 @@ const NavItem = ({ text, href, className = "" }: NavItemProps) => (
   <li className="list-none">
     <Link
       href={href}
-      className={`text-sm font-bold text-gray-700 px-2 py-1 hover:bg-gray-300 rounded transition-colors ${className}`}
+      className={`group relative inline-block text-md font-normal text-gray-900 px-2 py-1 ${className}`}
       role="navigation"
       aria-label={text}
     >
-      {text}
+      <span className="relative z-10">{text}</span>
+      <span
+        className="absolute left-0 bottom-0 w-full h-px bg-gray-900 
+                            transform origin-right scale-x-0 
+                            transition-transform duration-300 ease-[ease]
+                            group-hover:origin-left group-hover:scale-x-100"
+      ></span>
     </Link>
   </li>
 );
 
-const Navbar = () => (
-  <header className="bg-white shadow-sm">
-    <nav className="max-w-screen-xl flex flex-wrap justify-between mx-auto p-2">
-      <Link
-        href="/"
-        className="flex items-center space-x-3"
-        aria-label="Homepage"
-      >
-        <picture>
-          <source srcSet="/brand/brand.svg" type="image/svg+xml" />
-          <Image src={WMicon} width={150} alt="William Miyata" />
-        </picture>
-      </Link>
-      <div className="flex md:order-2">
-        <button
-          type="button"
-          data-collapse-toggle="navbar-search"
-          aria-controls="navbar-search"
-          aria-expanded="false"
-          className="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1"
-        >
-          <svg
-            className="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 20 20"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-            />
-          </svg>
-          <span className="sr-only">Search</span>
-        </button>
-        <div className="relative hidden md:block">
-          <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-            <svg
-              className="w-4 h-4 text-gray-500 dark:text-gray-400"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 20 20"
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
+
+  return (
+    <header className="bg-white shadow-sm">
+      <nav className="max-w-7xl mx-auto p-2 sm:px-6 lg:px-8 w-full">
+        <div className="flex justify-between items-center w-full">
+          <div className="flex items-center">
+            <Link
+              href="/"
+              className="flex shrink-0 items-center space-x-3"
+              aria-label="homepage"
             >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-              />
-            </svg>
-            <span className="sr-only">Search icon</span>
+              <WMIcon width={216} height={72} />
+            </Link>
           </div>
-          <input
-            type="text"
-            id="search-navbar"
-            className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Search..."
-          />
+
+          <div className="hidden md:flex md:items-center md:space-x-8">
+            <NavItem text="Collections" href="/" />
+            <NavItem text="Account" href="/" />
+
+            <div className="relative">
+              <SearchIcon className="h-5 w-5 absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+              <input
+                type="text"
+                placeholder="What are you looking for?"
+                className="pl-10 pr-4 py-2 border rounded-lg text-gray-950 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-transparent"
+              />
+            </div>
+          </div>
+
+          <div className="flex items-center md:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              aria-expanded={isOpen}
+            >
+              <span className="sr-only">
+                {isOpen ? "Close menu" : "Open menu"}
+              </span>
+              {isOpen ? <CloseIcon /> : <MenuIcon />}
+            </button>
+          </div>
         </div>
-        <button
-          data-collapse-toggle="navbar-search"
-          type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-search"
-          aria-expanded="false"
-        >
-          <span className="sr-only">Open main menu</span>
-          <svg
-            className="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
-        </button>
-      </div>
-      <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-2">
-        <ul className="flex flex-col p-4 md:p-0 mt-4 font-light border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-          <NavItem
-            text="Categories"
-            className="block py-2 px-3 text-white bg-blue-300 rounded-sm md:bg-transparent md:text-gray-50 md:p-0 md:dark:text-cyan-950"
-            href="#"
-          />
-          <NavItem
-            text="Account"
-            className="block py-2 px-3 text-white bg-blue-300 rounded-sm md:bg-transparent md:text-gray-50 md:p-0 md:dark:text-cyan-950"
-            href="#"
-          />
-        </ul>
-      </div>
-    </nav>
-  </header>
-);
+
+        <div className={`md:hidden pb-4 ${isOpen ? "block" : "hidden"}`}>
+          <div className="pt-4 space-y-4">
+            <NavItem text="Collections" href="/" />
+            <NavItem text="Account" href="/" />
+
+            <div className="px-4">
+              <div className="relative">
+                <SearchIcon className="h-5 w-5 absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+                <input
+                  type="text"
+                  placeholder="What are you looking for?"
+                  className="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  );
+};
 
 export default Navbar;

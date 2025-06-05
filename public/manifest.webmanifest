@@ -1,8 +1,8 @@
 {
   "name": "William Miyata",
-  "short_name": "WM",
+  "short_name": "WMstore",
   "start_url": "/",
-  "theme_color": "#202c3b",
+  "theme_color": "#1a1f3d",
   "background_color": "#000000",
   "display": "standalone",
   "lang": "en",

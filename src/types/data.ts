@@ -1,8 +1,13 @@
 import { Product } from "./product";
-import rawProducts from "../app/products.json";
+import rawData from "./products.json";
 
-const products: Product[] = Array.isArray(rawProducts) // Checks if rawProducts is an array
-  ? (rawProducts as Product[])
-  : []; // Prevents crashes if JSON is bad
+const products: Product[] = rawData.products.map((p) => ({
+  ...p,
+  ratings: p.ratings.map((r) => ({
+    user_id: r.user_id,
+    text: r.text,
+    stars: r.stars,
+  })),
+}));
 
 export default products;

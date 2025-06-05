@@ -1,0 +1,784 @@
+{
+  "products": [
+    {
+      "id": "0001",
+      "name": "Leather Bomber Jacket",
+      "brand": "Gucci",
+      "price": 3200,
+      "category": "Clothing",
+      "description": "Crafted from supple Italian calf leather, this bomber jacket features the iconic Web stripe detail on the back and ribbed trims for a snug fit. Fully lined in silk for comfort and decorated with the interlocking G logo on the chest. A timeless silhouette reimagined with contemporary tailoring.",
+      "rating": 4.7,
+      "ratings": [
+        {
+          "user_id": "U101",
+          "text": "Absolutely stunning quality and fits like a dream. Worth every penny!",
+          "stars": 5
+        },
+        {
+          "user_id": "U102",
+          "text": "Love the design but expected thicker lining for winter wear.",
+          "stars": 3
+        },
+        {
+          "user_id": "U103",
+          "text": "The leather is buttery soft and the stitching is impeccable.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0002",
+      "name": "Re-Nylon Gabardine Jacket",
+      "brand": "Prada",
+      "price": 2500,
+      "category": "Clothing",
+      "description": "This lightweight jacket is made from Prada’s signature Re-Nylon eco-friendly gabardine, featuring triangular logo plaque and concealed zip fastening. Designed with adjustable drawcord at hem and elasticated cuffs for versatility. Perfect for transitional weather with a sleek, modern cut.",
+      "rating": 4.3,
+      "ratings": [
+        {
+          "user_id": "U104",
+          "text": "Great eco-friendly material and very light, but sizing runs small.",
+          "stars": 4
+        },
+        {
+          "user_id": "U105",
+          "text": "Elegant look, but the sleeves feel a bit tight.",
+          "stars": 3
+        },
+        {
+          "user_id": "U106",
+          "text": "I wear it every day—super comfortable and stylish.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0003",
+      "name": "Monogram Silk Scarf",
+      "brand": "Louis Vuitton",
+      "price": 480,
+      "category": "Clothing",
+      "description": "Woven in pure silk twill, this scarf showcases the classic LV monogram print in a muted palette. Generously sized for versatile styling—drape, wrap or tie. Rolled edges and glossy finish give it an elegant touch for both casual and formal looks.",
+      "rating": 4.5,
+      "ratings": [
+        {
+          "user_id": "U107",
+          "text": "Beautiful colors and feels luxurious against the skin.",
+          "stars": 5
+        },
+        {
+          "user_id": "U108",
+          "text": "Slightly thinner than expected but still elegant.",
+          "stars": 4
+        },
+        {
+          "user_id": "U109",
+          "text": "Perfect for dressing up any outfit—highly recommended.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0004",
+      "name": "Kensington Trench Coat",
+      "brand": "Burberry",
+      "price": 1950,
+      "category": "Clothing",
+      "description": "A modern take on the classic trench, this coat is made from water-resistant cotton gabardine and features signature check lining. Double-breasted with epaulettes, storm shield and adjustable belt for a tailored silhouette. Timeless design that elevates any ensemble.",
+      "rating": 4.8,
+      "ratings": [
+        {
+          "user_id": "U110",
+          "text": "The fit is spot-on and the fabric repels rain beautifully.",
+          "stars": 5
+        },
+        {
+          "user_id": "U111",
+          "text": "Expensive but you can tell it’s built to last decades.",
+          "stars": 5
+        },
+        {
+          "user_id": "U112",
+          "text": "Love everything about it, except the length is a bit long on me.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "id": "0005",
+      "name": "Le Smoking Tuxedo Jacket",
+      "brand": "Saint Laurent",
+      "price": 3900,
+      "category": "Clothing",
+      "description": "Exemplifying Parisian chic, this tuxedo jacket is tailored from wool-silk blend with satin lapels. Slim-fit cut with single-button closure and jetted pockets. Designed to make a bold statement at evening events with its sharp shoulders and clean lines.",
+      "rating": 4.6,
+      "ratings": [
+        {
+          "user_id": "U113",
+          "text": "Sharp and sexy—garment feels tailor-made.",
+          "stars": 5
+        },
+        {
+          "user_id": "U114",
+          "text": "A bit snug in the shoulders for me, but overall great quality.",
+          "stars": 4
+        },
+        {
+          "user_id": "U115",
+          "text": "The satin lapel really stands out under lights.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0006",
+      "name": "Double C Logo Cashmere Sweater",
+      "brand": "Chanel",
+      "price": 2800,
+      "category": "Clothing",
+      "description": "Pure cashmere knitted into a relaxed-fit sweater, featuring the raised Double C logo across the chest. Ribbed cuffs and hem ensure shape retention and durability. Pale beige hue versatile for layering or standalone wear.",
+      "rating": 4.9,
+      "ratings": [
+        {
+          "user_id": "U116",
+          "text": "Softest cashmere I’ve ever worn—worth every dollar.",
+          "stars": 5
+        },
+        {
+          "user_id": "U117",
+          "text": "Color was slightly different in person but still beautiful.",
+          "stars": 4
+        },
+        {
+          "user_id": "U118",
+          "text": "Will be a staple in my wardrobe for years.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0007",
+      "name": "Love Bracelet",
+      "brand": "Cartier",
+      "price": 7500,
+      "category": "Jewellery",
+      "description": "Crafted in 18k yellow gold, the Love bracelet features the signature screw motif and comes with a special screwdriver to symbolize enduring commitment. Smooth, polished finish that sits elegantly on the wrist. Icon of modern luxury and romance.",
+      "rating": 4.8,
+      "ratings": [
+        {
+          "user_id": "U119",
+          "text": "Elegant, timeless piece—everyone asks where I got it.",
+          "stars": 5
+        },
+        {
+          "user_id": "U120",
+          "text": "A bit heavy, but that adds to its quality feel.",
+          "stars": 4
+        },
+        {
+          "user_id": "U121",
+          "text": "Absolutely love it, wear it daily.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0008",
+      "name": "Tiffany T Wire Ring",
+      "brand": "Tiffany & Co.",
+      "price": 2300,
+      "category": "Jewellery",
+      "description": "Delicate 18k rose gold ring with a T motif on either end of the open band, polished to a mirror finish. Minimalist design inspired by the architecture of New York City. Stackable and perfect for everyday elegance.",
+      "rating": 4.4,
+      "ratings": [
+        {
+          "user_id": "U122",
+          "text": "Simple yet striking, and very comfortable.",
+          "stars": 5
+        },
+        {
+          "user_id": "U123",
+          "text": "Wish the opening was slightly narrower.",
+          "stars": 3
+        },
+        {
+          "user_id": "U124",
+          "text": "Gorgeous color, goes with everything.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0009",
+      "name": "Serpenti Bracelet",
+      "brand": "Bvlgari",
+      "price": 5200,
+      "category": "Jewellery",
+      "description": "This flexible coil bracelet is inspired by the sinuous form of a serpent, crafted in 18k rose gold with pavé diamonds on the head. The scale-effect micro-motifs add realism and shine. A standout piece that wraps elegantly around the wrist.",
+      "rating": 4.7,
+      "ratings": [
+        {
+          "user_id": "U125",
+          "text": "Stunning design, the diamonds sparkle brilliantly.",
+          "stars": 5
+        },
+        {
+          "user_id": "U126",
+          "text": "Heavier than expected but very well made.",
+          "stars": 4
+        },
+        {
+          "user_id": "U127",
+          "text": "Received so many compliments!",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0010",
+      "name": "Alhambra Necklace",
+      "brand": "Van Cleef & Arpels",
+      "price": 16000,
+      "category": "Jewellery",
+      "description": "Featuring the signature Alhambra quatrefoil motif in mother-of-pearl set in 18k yellow gold, this long necklace can be doubled or worn as is. Delicate beads accentuate the chain. Symbolizes luck and timeless elegance.",
+      "rating": 4.9,
+      "ratings": [
+        {
+          "user_id": "U128",
+          "text": "Mother-of-pearl is flawless and the gold is rich in color.",
+          "stars": 5
+        },
+        {
+          "user_id": "U129",
+          "text": "Pricey but feels like heirloom quality.",
+          "stars": 5
+        },
+        {
+          "user_id": "U130",
+          "text": "Lovely piece, though clasp is a bit stiff.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "id": "0011",
+      "name": "Altiplano 38mm",
+      "brand": "Piaget",
+      "price": 11000,
+      "category": "Jewellery",
+      "description": "Ultra-thin 38mm automatic watch in 18k white gold, with silvered dial and rose-gold hands. Caliber 1203P movement measures just 2.35mm thick. Understated elegance meets technical mastery.",
+      "rating": 4.6,
+      "ratings": [
+        {
+          "user_id": "U131",
+          "text": "Phenomenal thinness and classic look.",
+          "stars": 5
+        },
+        {
+          "user_id": "U132",
+          "text": "Could use more lume for night visibility.",
+          "stars": 3
+        },
+        {
+          "user_id": "U133",
+          "text": "Feels luxurious without being flashy.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0012",
+      "name": "Datejust 41",
+      "brand": "Rolex",
+      "price": 9500,
+      "category": "Jewellery",
+      "description": "Classic 41mm Oystersteel watch with fluted bezel and Jubilee bracelet. Sunburst blue dial with Chromalight luminescent markers. Waterproof to 100m and powered by the caliber 3235 movement for precision.",
+      "rating": 4.8,
+      "ratings": [
+        {
+          "user_id": "U134",
+          "text": "Iconic Rolex craftsmanship—runs perfectly.",
+          "stars": 5
+        },
+        {
+          "user_id": "U135",
+          "text": "Bezel is a bit sharp but overall fantastic.",
+          "stars": 4
+        },
+        {
+          "user_id": "U136",
+          "text": "Love wearing this daily, keeps great time.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0013",
+      "name": "Meisterstück 149 Fountain Pen",
+      "brand": "Montblanc",
+      "price": 900,
+      "category": "Writing Instruments",
+      "description": "Handcrafted resin barrel with gold-coated fittings and the Meisterstück emblem. The handcrafted 18k gold nib offers a smooth, consistent ink flow. A symbol of refinement for collectors and professionals alike.",
+      "rating": 4.7,
+      "ratings": [
+        {
+          "user_id": "U137",
+          "text": "Nib is buttery smooth, writes flawlessly.",
+          "stars": 5
+        },
+        {
+          "user_id": "U138",
+          "text": "A bit heavy for long writing sessions.",
+          "stars": 3
+        },
+        {
+          "user_id": "U139",
+          "text": "Elegant design and superb build quality.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0014",
+      "name": "Duofold Centennial",
+      "brand": "Parker",
+      "price": 700,
+      "category": "Writing Instruments",
+      "description": "Made from precious resin with gold accents, this fountain pen features a solid 18k gold nib and traditional Parker arrow clip. The iconic Duofold silhouette has been refined for modern ergonomics and balance.",
+      "rating": 4.4,
+      "ratings": [
+        {
+          "user_id": "U140",
+          "text": "Classic feel but could use a bit more ink capacity.",
+          "stars": 4
+        },
+        {
+          "user_id": "U141",
+          "text": "Nib skipped occasionally, but overall reliable.",
+          "stars": 3
+        },
+        {
+          "user_id": "U142",
+          "text": "Feels substantial and writes smoothly.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0015",
+      "name": "Souverän M1000",
+      "brand": "Pelikan",
+      "price": 850,
+      "category": "Writing Instruments",
+      "description": "Large piston-filling fountain pen with striped resin barrel and gold-plated trim. The 18k gold nib provides exceptional spring and smoothness. Classic Pelikan craftsmanship shines through in every detail.",
+      "rating": 4.8,
+      "ratings": [
+        {
+          "user_id": "U143",
+          "text": "Ink capacity is huge—perfect for marathon writing.",
+          "stars": 5
+        },
+        {
+          "user_id": "U144",
+          "text": "Quite large, may not suit small hands.",
+          "stars": 3
+        },
+        {
+          "user_id": "U145",
+          "text": "Excellent flow and balanced weight.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0016",
+      "name": "Peerless 125",
+      "brand": "Cross",
+      "price": 500,
+      "category": "Writing Instruments",
+      "description": "Crafted with premium lacquered finish and gold-plated appointments, this fountain pen features an 18k gold nib and classic Cross silhouette. Ideal for daily use and special occasions alike.",
+      "rating": 4.2,
+      "ratings": [
+        {
+          "user_id": "U146",
+          "text": "Sleek design but the cap can loosen over time.",
+          "stars": 3
+        },
+        {
+          "user_id": "U147",
+          "text": "Smooth writer and looks very professional.",
+          "stars": 5
+        },
+        {
+          "user_id": "U148",
+          "text": "Good quality but not as luxurious as competitors.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "id": "0017",
+      "name": "King of Pens",
+      "brand": "Sailor",
+      "price": 600,
+      "category": "Writing Instruments",
+      "description": "Featuring a King-size 21k gold nib and hand-polished ebonite body, this pen delivers unmatched writing performance and elegance. Immaculate attention to detail makes it a favorite among enthusiasts.",
+      "rating": 4.9,
+      "ratings": [
+        {
+          "user_id": "U149",
+          "text": "Unbelievable nib quality—writes with perfect consistency.",
+          "stars": 5
+        },
+        {
+          "user_id": "U150",
+          "text": "Very smooth but took time to break in.",
+          "stars": 4
+        },
+        {
+          "user_id": "U151",
+          "text": "Feels like a work of art in hand.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0018",
+      "name": "Ogiva Demonstrator",
+      "brand": "Omas",
+      "price": 1200,
+      "category": "Writing Instruments",
+      "description": "Limited-edition demonstrator with transparent resin barrel showcasing its piston mechanism, complemented by rose-gold plated trim. The 18k gold nib provides excellent feedback and line variation.",
+      "rating": 4.6,
+      "ratings": [
+        {
+          "user_id": "U152",
+          "text": "Beautiful demonstration of inner workings, nib is stellar.",
+          "stars": 5
+        },
+        {
+          "user_id": "U153",
+          "text": "Cap threads feel a bit delicate.",
+          "stars": 3
+        },
+        {
+          "user_id": "U154",
+          "text": "Unique design, fantastic performance.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0019",
+      "name": "Pro V1 (12 Balls)",
+      "brand": "Titleist",
+      "price": 48,
+      "category": "Sports Gear",
+      "description": "Golf balls engineered for exceptional distance, drop-and-stop control, and consistent flight. Featuring a urethane elastomer cover for excellent greenside spin. Preferred by professionals worldwide.",
+      "rating": 4.9,
+      "ratings": [
+        {
+          "user_id": "U155",
+          "text": "Unmatched performance around the green.",
+          "stars": 5
+        },
+        {
+          "user_id": "U156",
+          "text": "A bit pricey but totally worth it.",
+          "stars": 5
+        },
+        {
+          "user_id": "U157",
+          "text": "Durable and feels great off the tee.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0020",
+      "name": "Chrome Soft (12 Balls)",
+      "brand": "Callaway",
+      "price": 45,
+      "category": "Sports Gear",
+      "description": "Featuring Graphene-infused Dual SoftFast Core for soft feel and low spin off the driver, plus Tour Urethane cover for greenside control. Consistent flight and exceptional stopping power.",
+      "rating": 4.7,
+      "ratings": [
+        {
+          "user_id": "U158",
+          "text": "Soft feel is fantastic, spin control is impressive.",
+          "stars": 5
+        },
+        {
+          "user_id": "U159",
+          "text": "Flight was a bit lower than expected.",
+          "stars": 3
+        },
+        {
+          "user_id": "U160",
+          "text": "Great value for tour-level performance.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0021",
+      "name": "P'3470 Sunglasses",
+      "brand": "Porsche Design",
+      "price": 320,
+      "category": "Sports Gear",
+      "description": "Lightweight titanium frame with adjustable nose pads and polarized lenses offering 100% UV protection. Sleek aviator-inspired design with integrated hinges for durability. Engineered for comfort and high-performance activities.",
+      "rating": 4.5,
+      "ratings": [
+        {
+          "user_id": "U161",
+          "text": "Super light and fit comfortably for hours.",
+          "stars": 5
+        },
+        {
+          "user_id": "U162",
+          "text": "Lenses could be darker for bright conditions.",
+          "stars": 3
+        },
+        {
+          "user_id": "U163",
+          "text": "Stylish and well-built.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0022",
+      "name": "Grenoble Down Ski Jacket",
+      "brand": "Moncler",
+      "price": 1400,
+      "category": "Sports Gear",
+      "description": "High-loft down insulation with water-repellent shell, ergonomic hood and articulated sleeves for freedom of movement. Fleece-lined pockets and zip ventilation for temperature regulation. Luxury performance on the slopes.",
+      "rating": 4.8,
+      "ratings": [
+        {
+          "user_id": "U164",
+          "text": "Keeps me warm even in sub-zero temps.",
+          "stars": 5
+        },
+        {
+          "user_id": "U165",
+          "text": "A bit bulky but extremely cozy.",
+          "stars": 4
+        },
+        {
+          "user_id": "U166",
+          "text": "Looks great and performs flawlessly.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0023",
+      "name": "Pro Staff RF97 Autograph",
+      "brand": "Wilson",
+      "price": 250,
+      "category": "Sports Gear",
+      "description": "Roger Federer’s signature racket with braided graphite construction for precision and stability. 97 sq. in. head size and 18x20 string pattern deliver superb control. Hefty 355g weight for powerful strokes.",
+      "rating": 4.6,
+      "ratings": [
+        {
+          "user_id": "U167",
+          "text": "Powerful and stable—my go-to racket.",
+          "stars": 5
+        },
+        {
+          "user_id": "U168",
+          "text": "Heavy for long matches but great feedback.",
+          "stars": 4
+        },
+        {
+          "user_id": "U169",
+          "text": "Amazing feel and precision.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0024",
+      "name": "Keepall Bandoulière 55",
+      "brand": "Louis Vuitton",
+      "price": 2300,
+      "category": "Sports Gear",
+      "description": "Iconic travel duffle in Monogram canvas with leather trim and removable shoulder strap. Spacious interior with textile lining and padlock closure. Durable hardware and timeless style for luxury travel.",
+      "rating": 4.7,
+      "ratings": [
+        {
+          "user_id": "U170",
+          "text": "Perfect size for weekend trips and holds up well.",
+          "stars": 5
+        },
+        {
+          "user_id": "U171",
+          "text": "Canvas feels sturdy but leather trim needs care.",
+          "stars": 4
+        },
+        {
+          "user_id": "U172",
+          "text": "Stylish and practical, love it.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0025",
+      "name": "Vintage 2012 Champagne",
+      "brand": "Dom Pérignon",
+      "price": 200,
+      "category": "Beverages",
+      "description": "Rich and complex vintage champagne with notes of almond, brioche and honeysuckle. Fine bubbles and long, mineral finish. Ideal for celebrations or pairing with seafood and caviar.",
+      "rating": 4.8,
+      "ratings": [
+        {
+          "user_id": "U173",
+          "text": "Creamy texture and elegant finish.",
+          "stars": 5
+        },
+        {
+          "user_id": "U174",
+          "text": "A bit dry for my taste but very refined.",
+          "stars": 4
+        },
+        {
+          "user_id": "U175",
+          "text": "Perfect celebration bottle.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0026",
+      "name": "Grande Cuvée NV",
+      "brand": "Krug",
+      "price": 200,
+      "category": "Beverages",
+      "description": "Non-vintage blend of over 120 wines aged at least six years in Krug’s cellars, offering aromas of toasted bread, hazelnut and fresh fruit. Rich palate with vibrant acidity and enduring length.",
+      "rating": 4.9,
+      "ratings": [
+        {
+          "user_id": "U176",
+          "text": "Unparalleled depth and complexity.",
+          "stars": 5
+        },
+        {
+          "user_id": "U177",
+          "text": "Pricey but worth every sip.",
+          "stars": 5
+        },
+        {
+          "user_id": "U178",
+          "text": "My new favorite champagne.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0027",
+      "name": "18 Year Old Scotch",
+      "brand": "The Macallan",
+      "price": 350,
+      "category": "Beverages",
+      "description": "Matured in sherry-seasoned oak casks, this single malt presents rich flavors of dried fruit, ginger and toffee. Velvety mouthfeel with warm spice and oak notes on the finish. A Scotch for true connoisseurs.",
+      "rating": 4.7,
+      "ratings": [
+        {
+          "user_id": "U179",
+          "text": "Complex and warming—perfect after dinner.",
+          "stars": 5
+        },
+        {
+          "user_id": "U180",
+          "text": "A touch too oaky for my palate.",
+          "stars": 3
+        },
+        {
+          "user_id": "U181",
+          "text": "Smooth and luxurious taste.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0028",
+      "name": "Paradis Cognac",
+      "brand": "Hennessy",
+      "price": 2300,
+      "category": "Beverages",
+      "description": "Blend of over 100 rare eaux-de-vie aged up to 130 years, offering notes of jasmine, honey and sandalwood. Silky texture with layered fruit and spice nuances. A pinnacle of cognac craftsmanship.",
+      "rating": 4.9,
+      "ratings": [
+        {
+          "user_id": "U182",
+          "text": "Exquisite aroma and unbelievably smooth.",
+          "stars": 5
+        },
+        {
+          "user_id": "U183",
+          "text": "Beyond luxurious—an experience in every glass.",
+          "stars": 5
+        },
+        {
+          "user_id": "U184",
+          "text": "Expensive but truly exceptional.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0029",
+      "name": "Cristal 2013",
+      "brand": "Louis Roederer",
+      "price": 250,
+      "category": "Beverages",
+      "description": "Reserved for the finest grapes, this vintage champagne shows citrus, white flowers and brioche aromas. Fine mousse and crisp acidity with a satiny finish. Created for collectors and special occasions.",
+      "rating": 4.6,
+      "ratings": [
+        {
+          "user_id": "U185",
+          "text": "Beautiful balance of fruit and acidity.",
+          "stars": 5
+        },
+        {
+          "user_id": "U186",
+          "text": "Bottle arrived warm but still enjoyable.",
+          "stars": 3
+        },
+        {
+          "user_id": "U187",
+          "text": "Perfect for weddings and anniversaries.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "id": "0030",
+      "name": "Château Margaux 2015",
+      "brand": "Château Margaux",
+      "price": 800,
+      "category": "Beverages",
+      "description": "Premier Grand Cru Classé Bordeaux with aromas of blackcurrant, violet and cedar. Full-bodied palate with velvety tannins and a long, graceful finish. A benchmark for elegant red wines.",
+      "rating": 4.8,
+      "ratings": [
+        {
+          "user_id": "U188",
+          "text": "Silky texture and remarkable depth.",
+          "stars": 5
+        },
+        {
+          "user_id": "U189",
+          "text": "Needs more decanting time to open up fully.",
+          "stars": 4
+        },
+        {
+          "user_id": "U190",
+          "text": "One of the finest wines I’ve tasted.",
+          "stars": 5
+        }
+      ]
+    }
+  ]
+}
